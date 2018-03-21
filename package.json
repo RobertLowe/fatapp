@@ -1,0 +1,43 @@
+{
+  "name": "fatapp",
+  "version": "0.1.6",
+  "description": "fatapp - a dirty NPM dependency analysis tool",
+  "license": "MIT",
+  "author": {
+    "name": "Robert Lowe",
+    "email": "rob@robertlowe.ca"
+  },
+  "url": "https://github.com/robertlowe/fatapp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertlowe/fatapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertlowe/fatapp/issues",
+    "email": "rob@robertlowe.ca"
+  },
+  "homepage": "https://github.com/robertlowe/fatapp/",
+  "keywords": [
+    "analysis",
+    "dependencies"
+  ],
+  "scripts": {},
+  "main": "noop.js",
+  "files": [
+    "index.js",
+    "noop.js"
+  ],
+  "bin": {
+    "fatapp": "index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "deepmerge": "^2.1.0",
+    "fibers": "2.0.0",
+    "gauge": "^2.7.4",
+    "left-pad": "1.2.0",
+    "minimist": "^1.2.0",
+    "right-pad": "1.0.1",
+    "underscore": "1.8.3"
+  }
+}
